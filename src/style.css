@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0 ;
+  margin: 0 ;
+}
+
+nav {
+  position: relative ;
+  background-color: red ;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav > a {
+  color: white ;
+  text-decoration: none ;
+  padding: 0 15px;
+  position: relative ;
+}
+
+nav > div {
+  position: absolute;
+  top: 50% ;
+  transform: translateY(-50%);
+  background-color: black ;
+  border-radius: 15px;
+  width: 30px;
+  height: 20px ;
+}
